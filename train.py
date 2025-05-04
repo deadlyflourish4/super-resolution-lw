@@ -119,7 +119,7 @@ class RFDNWithFeatures(nn.Module):
 
 # --- Config ---
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-num_epochs = 100
+num_epochs = 1000
 batch_size = 16
 learning_rate = 1e-4
 lambda_feat = [1.0, 1.0, 1.0, 1.0]
