@@ -26,3 +26,6 @@ To accelerate inference and reduce memory usage, we convert the trained DIPNet m
 To enable fast and portable inference, the trained DIPNet model is first exported to **ONNX (Open Neural Network Exchange)** format and then optimized with **TensorRT**.
 
 Achieving 2.5x faster inference time compare to .pth
+
+## Result 
+![alt text](image-3.png)
